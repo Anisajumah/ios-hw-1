@@ -16,13 +16,17 @@ import UIKit
  1.5) استعمل if statement , اذا كانت المصفوفة تحتوي على بيتزا قم بطباعه "yumm Pizza🍕😋"
 
 */
+var array = ["taco", "pasta", "salad"]
+array.append("pizza")
+print(array[0])
 
-
-
-
-
+if array == ["pizza"] {
+    print("yummy pizza")
+}
 //: # 2️⃣  السؤال الثاني
 var numbers = [1,2,3,4,5,6,7,8,9,10]
+var evenNumbers = [2,4,6,8,10]
+
 /*:
 
 ##
